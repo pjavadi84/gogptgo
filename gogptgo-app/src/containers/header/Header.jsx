@@ -6,9 +6,9 @@ import HeaderIlustration from '../../assets/Header Illustration.png'
 const Header = () => {
   return (
     <div className='gpt3__header section__padding' id="home">
-      <div className='gpt3__header-content'>
-          <h1>
-              Travel with CorgiAI sounds clever
+        <div className='gpt3__header-content'>
+          <h1 className='gradient__text'>
+              CorgiAI ... Travelling abound!
           </h1>
           
           <p>Future of travelling built by CorgiAI is not unreachable anymore. Joint the revolution</p>
@@ -22,12 +22,12 @@ const Header = () => {
             <img src={group} />
             <p>1,600 people requested access a visit in last 24 hours</p>
           </div>
-
-          <div className='gp3__header-image'>
-            <img src={HeaderIlustration} />
-          </div>
+        </div>
+        <div className='gp3__header-image'>
+          <img src={HeaderIlustration} alt="ai" />
         </div>
     </div>
+    
   )
 }
 
